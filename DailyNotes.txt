@@ -1,0 +1,311 @@
+
+
+JAVA:
+======
+PROGRAMMING LANGUAGE :1996 JAMES GOSLING-->SUN MICRO SYSTEM-->ORACLE CORPORATION
+			JDK 1.0
+			JDK 22
+
+		OOP
+		
+		Welcome.java
+
+	variables/methods/objects/class/interfaces.....
+	
+		datatype varname=value
+		byte 
+		short
+		int
+		long
+		
+		float	123.4353434
+		double	23.4298326478
+		
+		char		'M'
+		boolean true,false
+		
+		
+		byte age=31;
+		
+		
+		OOPS--->inheritance,polymorphisam,encapsulation,abstraction
+				extends,implements
+				
+				class A{
+					m1()
+				
+				}
+				class B extends A{
+					m1()
+				}
+		this,super
+
+exception handling
+multi threading
+collections		
+				
+			mysql
+
+
+			
+Spring Framework:  2003
+=================6.x
+	Eclipse-->IDE
+	netbeans,intellji,myeclipse,vscode....
+
+
+spring is non-invasive framework which is used to create light weight and loosley coupled applications
+
+
+		non-invasive
+
+		light weight
+		
+		loosley coupled
+
+
+	invasive 		these frameworks will force to the developer to implement predefined API 
+	non-invasive 	these frameworks will never force to the developer to implement predefined API
+
+			spring,hibernate
+
+	Servlets,struts,jsf,EJB...ROD Johnson -->spring framework-->2003
+
+	ROD JOHNSON--->2003 -->interface21-->spring 
+	
+	
+1)implements Servlet		
+2)extends GernericServlet
+3)extends HttpServlet(12)	class Login extends HttpServlet
+
+	heavy weight 
+
+struts
+
+	class Test{
+		Test(String name)
+		{
+		
+		}
+		m1()
+		{
+		
+		}
+	}
+	//tightly coupled
+	class Client
+	{
+	
+	main()
+	{
+	Test test=container 
+		test.m1()
+	
+	}
+	
+	}
+loosley coupled 	
+	spring container --->object life cycle 
+		
+				creation of object
+				wiring
+				configuring 
+				destroying
+			
+		Beanfactory,ApplicationContext==>org.springframework
+		
+		spring framework-jars 1.x	....6.x
+		
+		
+		IOC-->inversion of controller/dependency injection module
+		
+		
+		spring core module
+		
+		A     
+				Container --->configuration file-->xml config,annotation config,java config
+								<beans><bean><property><constructor-arg>,id,ref,class,autowire
+		B
+		
+				-->setter injection
+				-->constructor injection
+				-->autowiring -->byname,bytype,constructor
+				
+		
+		@Component,@ComponentScan,@Configuration,@Autowired,@Scope,@Qualifier
+		@Service
+		@Repository
+		@Bean
+		
+		NOTE:spring has given annotations for user defined classes but not for predefined classes
+		maven   -->pom.xml -->dependencies 
+		server	-->tomcat,weblogic.....
+		confgiuration
+		
+	Spring boot features 
+		1)Auto configuration most of the commonly used classes already configured by the spring boot
+		2)starters				-->jars
+		3)Embeded server 		tomcat
+		4)actuators 			insite health,beans,env
+		h2
+		
+		mysql,-->JPA-->HIbernate
+		
+		spring boot 
+		
+				REST api
+				
+		Webservices:
+				SOAP	-->XML
+				REST	-->XML,JSON,PT,JS,HTML
+				
+				JSON
+					
+					
+			starter-->		
+				
+				
+		JPA-->HIbernate
+
+		REST API
+				
+		
+	ProductManagementApp
+
+		1)Add Product
+		2)Update Product
+		3)Delete Product
+		4)Get Product by id
+		5)Get All products
+		6)Get ALl products by Category
+		7)Get ALl products between prices
+		
+		
+		JPA-->specification			persist,merge,remove,find,createQuery
+		ORM tools -->implementation -->hibernate,eclipselink,toplink,ibatis.....
+		
+		Object Relational Mapping 
+		
+		
+			username	
+			password
+			url				jdbc:mysql:localhost:3306/nec
+			driverclass		Driver
+		
+			hibernate
+			
+			dialect class
+			show_sql
+			hbm2ddl.auto
+			
+			
+			spring boot rest 
+			
+				webservices
+					
+						interoperable apps
+			
+			SP,RMI,EJB -->java
+			rpc			-->c/c++
+			DCOM	-->.net
+			
+			corba  -->
+		
+		Webservices-->
+			SOAP  -->XML
+			
+			REST  -->xml,json,pt,js,html
+		
+			
+			CrudRepository	-->CRUD
+			JpaRepository	-->crud+extra		spring 
+			
+			
+			DSL
+			
+			exception handling in spring rest 
+			
+					controller
+			
+				1)controller level 
+				2)application level 
+			
+			
+			secure 
+			
+			spring security
+			
+			
+				authentication
+				authorization				
+			
+Microservices:=
+==================			
+			Monolithic Architecture
+			
+
+			
+		Monolithic Architecture:
+		
+			1)InFlexible
+				we cannot built using different technologies
+			2)unreliable
+				if one feature/module/functionality doesnot work ,entire application doesnot work
+			3)unsclable 
+
+			4)slow development
+				
+		
+		
+		
+	devide/decompose/split the large project into smaller services and later communicate them
+			
+			self contained
+			single business capability
+			
+			
+		independent development
+		independent deployment
+		Fault Isolation
+		flexible
+		
+		
+		seperate datasource for each microservice
+		keep the code at similar level of maturity
+		sepearatee build for each microservice
+		deploy containers
+		treat servers as stateless
+		
+		
+		
+		microservice1          microservice2
+		
+		communication
+				synchronous  -->RestTemplate,WebClient,Open Feign
+				asynhronous  -->kafka,rabbitmq,activemq
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+		
+		
+		
